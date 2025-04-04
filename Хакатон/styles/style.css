@@ -1,0 +1,383 @@
+/* Макет был сделан на тильде мной, я перенес его на HTML и добавил свойства кнопкам */
+/* Ссылка на макет: http://ttcc.tilda.ws/hakaton1 */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Макет не правильно ложился с тегом background-image поэтому пришлось сделать так */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: -1;
+}
+
+/*Секция игр*/
+.joystick {
+    position: absolute;
+    width: 218px;
+    top: 792px;
+    right: 523px;
+    transition: all 0.3s;
+}
+
+.joystick:hover {
+    width: 238px;
+    top: 787px;
+    right: 513px;
+    transition: all 0.3s;
+}
+
+#games {
+    position: absolute;
+    top: 1830px;
+}
+
+.bun {
+    position: absolute;
+    width: 159px;
+    top: 2435px;
+    right: 1025px;
+    transition: all 0.3s;
+}
+
+.bun:hover {
+    width: 170px;
+    top: 2431px;
+    right: 1020px;
+    transition: all 0.3s;
+}
+
+/*Секция музыки*/
+.music {
+    position: absolute;
+    width: 156px;
+    top: 780px;
+    right: 165px;
+    transition: all 0.3s;
+}
+
+.music:hover {
+    width: 176px;
+    top: 770px;
+    right: 155px;
+    transition: all 0.3s;
+}
+
+#music {
+    position: absolute;
+    top: 2770px;
+}
+
+.music_soy {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 2923px;
+    right: 701px;
+    transition: 0.3s;
+}
+
+.music_soy:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 2922px;
+    right: 700px;
+    transition: 0.3s;
+}
+
+.music_wdc {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 2999px;
+    right: 701px;
+    transition: 0.3s;
+}
+
+.music_wdc:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 2998px;
+    right: 700px;
+    transition: 0.3s;
+}
+
+.music_sya {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 3076px;
+    right: 701px;
+    transition: 0.3s;
+}
+
+.music_sya:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 3075px;
+    right: 700px;
+    transition: 0.3s;
+}
+
+.music_non {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 3153px;
+    right: 701px;
+    transition: 0.3s;
+}
+
+.music_non:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 3152px;
+    right: 700px;
+    transition: 0.3s;
+}
+
+.music_d {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 3230px;
+    right: 701px;
+    transition: 0.3s;
+}
+
+.music_d:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 3229px;
+    right: 700px;
+    transition: 0.3s;
+}
+
+.music_ftft {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 2923px;
+    right: 101px;
+    transition: 0.3s;
+}
+
+.music_ftft:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 2922px;
+    right: 100px;
+    transition: 0.3s;
+}
+
+.music_bh {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 3000px;
+    right: 101px;
+    transition: 0.3s;
+}
+
+.music_bh:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 2999px;
+    right: 100px;
+    transition: 0.3s;
+}
+
+.music_w {
+    position: absolute;
+    width: 34px;
+    border-radius: 10px;
+    top: 3077px;
+    right: 101px;
+    transition: 0.3s;
+}
+
+.music_w:hover {
+    position: absolute;
+    width: 37px;
+    border-radius: 10px;
+    top: 3076px;
+    right: 100px;
+    transition: 0.3s;
+}
+
+
+/*Секция аниме*/
+.movie {
+    position: absolute;
+    width: 187px;
+    top: 764px;
+    right: 954px;
+    transition: all 0.3s;
+}
+
+.movie:hover {
+    width: 207px;
+    top: 754px;
+    right: 944px;
+    transition: all 0.3s;
+}
+
+#movie {
+    position: absolute;
+    top: 1120px;
+}
+
+.yliabtn {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #2B6C7B;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 0px;
+    border-radius: 30px;
+    top: 1694px;
+    right: 965px;
+    transition: 0.4s;
+}
+
+.yliabtn:hover {
+    position: absolute;
+    color: #2B6C7B;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #FFFFFF;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 1px solid #2B6C7B;
+    border-radius: 30px;
+    top: 1694px;
+    right: 965px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.jjbabtn {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #2B6C7B;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 0px;
+    border-radius: 30px;
+    top: 1664px;
+    right: 665px;
+    transition: 0.4s;
+}
+
+.jjbabtn:hover {
+    position: absolute;
+    color: #2B6C7B;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #FFFFFF;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 1px solid #2B6C7B;
+    border-radius: 30px;
+    top: 1664px;
+    right: 665px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.iwteupbtn {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #2B6C7B;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 0px;
+    border-radius: 30px;
+    top: 1634px;
+    right: 365px;
+    transition: 0.4s;
+}
+
+.iwteupbtn:hover {
+    position: absolute;
+    color: #2B6C7B;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #FFFFFF;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 1px solid #2B6C7B;
+    border-radius: 30px;
+    top: 1634px;
+    right: 365px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.asvbtn {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #2B6C7B;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 0px;
+    border-radius: 30px;
+    top: 1604px;
+    right: 65px;
+    transition: 0.4s;
+}
+
+.asvbtn:hover {
+    position: absolute;
+    color: #2B6C7B;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    background-color: #FFFFFF;
+    font-weight: Bold;
+    width: 218px;
+    height: 28px;
+    border: 1px solid #2B6C7B;
+    border-radius: 30px;
+    top: 1604px;
+    right: 65px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.me {
+    position: absolute;
+    font-size: 25px;
+    letter-spacing: 2px;
+    top: 3465px;
+    right: 990px;
+    color: #FFFFFF;
+}
